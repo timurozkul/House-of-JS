@@ -1,0 +1,137 @@
+/*------------->> Left Column <<---*/
+
+.content__wrapper {
+    height: 100vh;
+    background-color: #FDF3E7;
+}
+
+form {
+    padding-top: 100px;
+}
+
+form h4:first-child {
+    padding: 6px 0 6px 2px;
+    color: #3B3738;
+}
+
+form input {
+    display: block;
+    height: 45px;
+    width: 80%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 16px;
+
+    border: 1px solid #C63D0F;
+    font-size: 16px;
+    color: #3B3738;
+}
+
+form input::-webkit-input-placeholder {
+    color: #3B3738;
+}
+
+form .sub__title {
+    padding: 6px 0 6px 16px;
+    color: #3B3738;
+}
+
+form .school {
+    min-height: 28px;
+    width: 50%;
+    padding-left: 16px;
+    margin-left: 16px;
+    margin-bottom: 6px;
+    line-height: 1.8;
+
+    font-size: 15px;
+    color: #3B3738;
+    border: 1px solid #C63D0F;
+    border-radius: 0;
+    background: white;
+}
+
+form button {
+    height: 45px;
+    width: 80%;
+    margin-top: 16px;
+
+    border: none;
+    background-color: #C63D0F;
+    opacity: .9;
+    font-size: 16px;
+    color: white;
+}
+
+/*------------->> Right Column <<---*/
+
+.school__info {
+    height: 100vh;
+    padding-top: 100px;
+    padding-left: 60px;
+
+    background-color: #7E8F7C;
+}
+
+.school__info h4 {
+    padding-left: 16px;
+    padding-bottom: 16px;
+}
+
+.school__info .school {
+    min-height: 38px;
+    width: 60%;
+    padding-left: 16px;
+    margin-bottom: 6px;
+    line-height: 2.3;
+
+    font-size: 16px;
+    color: #3B3738;
+    border: 1px solid #3B3738;
+    border-radius: 0;
+    background: white;
+}
+
+.school__info .users {
+    width: 60%;
+    margin-top: 20px;
+    padding: 0;
+
+    font-size: 16px;
+    color: #3B3738;
+    background-color: white;
+}
+
+.school__info .users h4 {
+    padding: 6px;
+    color: white;
+    background-color: #3B3738;
+    margin: 0;
+}
+
+.school__info .users div {
+   padding: 1px 1px 1px 10px;
+}
+
+    /*------------->> General <<---*/
+
+form .active {
+    background-color: #C63D0F;
+    color: white;
+}
+
+.school__info .active {
+    background-color: #3B3738;
+    color: white;
+}
+
+@media screen and (max-width: 980px) {
+    .school__info .users, .school__info .school,
+    form button, form input{
+        width: 90%;
+    }
+    form .school {
+        width: 80%;
+    }
+}
+
