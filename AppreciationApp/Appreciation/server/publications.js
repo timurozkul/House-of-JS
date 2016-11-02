@@ -1,3 +1,7 @@
-/**
- * Created by timurozkul on 11/1/16.
- */
+Meteor.publish('users', () => {
+    return Users.find({_id: this.userId});
+});
+
+Meteor.publish('day', () => {
+    return Users.find();
+});

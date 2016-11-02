@@ -2,18 +2,25 @@ Users = new Mongo.Collection('users');
 
 
 let UserSchema = new SimpleSchema({
-    'name': {
+    'username': {
         type: String,
-        label: 'Persons name'
+        label: 'Username'
     },
     'email': {
         type: String,
         label: 'E-mail'
     },
-    'school': {
-        type: [String],
-        label: 'Date of event',
-        allowedValues: ["Whitgift School", "Cheltenham Ladies College", "Sevenoaks School", "Headington School", "Ardingly College"],
+    'currentSubject': {
+        type: [ { } ],
+        label: 'Current appreciation subject active'
+    },
+    'currentSubject.$.subject': {
+        type: String,
+        label: 'Appreciation subjects'
+    },
+    'currentSubject.$.daysGoal': {
+        type: Number,
+        label: 'Appreciation subjects'
     }
 });
 
