@@ -36,7 +36,7 @@ constructor(){
         transitionName="route"
         transitionEnterTimeout={600}
         transitionAppearTimeout={600}
-        transitionLeaveTimeout={400}>
+        transitionLeaveTimeout={400}
         transitionAppear={true}>
              <h1>Bucket List - {Session.get('test')}</h1>
                <FormBucketList />

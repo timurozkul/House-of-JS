@@ -24,53 +24,11 @@
       <file leaf-file-name="BucketListWrapper.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/bucketList/BucketListWrapper.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="570">
+              <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="publish.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/publish.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/routes.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.styl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles.styl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3735">
-              <caret line="249" column="0" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -78,7 +36,7 @@
       <file leaf-file-name="BucketListDetail.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/bucketList/BucketListDetail.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
+            <state relative-caret-position="435">
               <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
@@ -87,43 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="methods.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/methods.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BucketListSingle.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/bucketList/BucketListSingle.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
-              <folding>
-                <marker date="1479652637000" expanded="true" signature="966:1087" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="About.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/About.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="17" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FormBucketList.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/bucketList/FormBucketList.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+            <state relative-caret-position="240">
+              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -369,12 +295,12 @@
       <workItem from="1479477976506" duration="9535000" />
       <workItem from="1479567879004" duration="10465000" />
       <workItem from="1479653477073" duration="1577000" />
-      <workItem from="1479760528054" duration="809000" />
+      <workItem from="1479760528054" duration="1071000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28109000" />
+    <option name="totallyTimeSpent" value="28371000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-305" width="1920" height="1005" extended-state="0" />
@@ -707,7 +633,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/routes.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="345">
           <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -725,19 +651,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/styles.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3735">
+        <state relative-caret-position="351">
           <caret line="249" column="0" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/bucketList/BucketListDetail.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -759,6 +675,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/bucketList/BucketListDetail.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/bucketList/FormBucketList.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -769,16 +695,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/About.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="17" selection-end-column="36" />
+        <state relative-caret-position="240">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/bucketList/BucketListWrapper.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="570">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
