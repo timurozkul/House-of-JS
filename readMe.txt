@@ -6,6 +6,5 @@ Toucantech   -> Completed on: 2016 Nov -> Code Challange
 
 Underconstruction
 
-Apprecation App
-
-Nodeschool.io
+- Apprecation App
+- Nodeschool.io
