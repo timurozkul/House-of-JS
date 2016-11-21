@@ -10,10 +10,10 @@
 //   },
 // });
 
-Template.main.events({
+Template.blessings.events({
   'click button'(e) {
     let newSubject = $('[name=subjectName]').val();
-    
+    alert(newSubject);
     Meteor.call()
   }
 });
