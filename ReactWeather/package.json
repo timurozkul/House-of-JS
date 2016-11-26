@@ -9,6 +9,7 @@
   "author": "Timur Ozkul",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.15.2",
     "express": "^4.14.0",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
