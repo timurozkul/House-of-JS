@@ -29,5 +29,8 @@ module.exports = {
                 exclude: /(node_modules|bower_components)/
             }
         ]
-    }
+    },
+    devtool: 'cheap-module-eval-source-map'
+    // Used for devtools on the browser to see your orignal code
+    // Use along with Debugger
 };
