@@ -17,7 +17,7 @@ Learning project - *2016 Nov*
 
 <h3>ReactTimer</h3>
 
-Learning project - *Pending*
+Learning project - *Currently working on*
 >Javascript, React.js, Mocha.js, Foundation
 
 <h3>Underconstruction</h3>
