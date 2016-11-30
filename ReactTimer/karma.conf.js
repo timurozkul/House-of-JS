@@ -15,18 +15,16 @@ module.exports = function (config) {
         // Shows which test pass and fail
         reporters: ['mocha'],
         // Sending config to mocha
+        // Sends information to the individual frameworks
         client: {
             mocha: {
-                // Tells mocha if the test doesnt finish in 5 sec finish the test
+                // Tells mocha if the test doesn't finish in 5 sec finish the test
                 timeout: '5000'
             }
         },
-        webpack: {
-            webpack: webpackConfig,
-            webpackServer: {
-                noInfo: true
-            }
+        webpack: webpackConfig,
+        webpackServer: {
+            noInfo: true
         }
-
     });
 };
