@@ -13,12 +13,12 @@ Learning project - *2016 Nov*
 <h3>ReactWeather</h3>
 
 Learning project - *2016 Nov*
->Javascript, React.js, Foundation
+>Javascript, React.js
 
 <h3>ReactTimer</h3>
 
 Learning project - *Currently working on*
->Javascript, React.js, Mocha.js, Foundation
+>Javascript, React.js, Mocha.js
 
 <h3>Underconstruction</h3>
 
