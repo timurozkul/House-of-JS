@@ -1,54 +1,84 @@
 var React = require('react');
 var WeatherForm = require('WeatherForm');
 var WeatherMessage = require('WeatherMessage');
+var ErrorModal = require('ErrorModal');
 var openWeatherMap = require('openWeather');
-
 
 var Weather = React.createClass({
     getInitialState: function () {
-      return {
-          isLoading: false
-      }
+        return {
+            isLoading: false
+        }
     },
-
-    handleSearch: function (location){
+    handleSearch: function (location) {
         var that = this;
 
-        this.setState({ isLoading: true });
+        this.setState({
+            isLoading: true,
+            errorMessage: undefined,
+            location: undefined,
+            temp: undefined
+        });
 
         openWeatherMap.getTemp(location).then(function (temp) {
-            that.setState({ // this gets lost inside of this function
+            that.setState({
                 location: location,
                 temp: temp,
                 isLoading: false
             });
-
-
-        }, function (errorMessage){
-            alert(errorMessage);
+        }, function (e) {
+            that.setState({
+                isLoading: false,
+                errorMessage: e.message
+            });
         });
+    },
+    // ComponentDidMount() hook runs after the component output has been rendered
+    componentDidMount: function () {
+        var location = this.props.location.query.location;
 
+        if (location && location.length > 0) {
+            this.handleSearch(location);
+            window.location.hash = '#/';
+        }
+    }, // ComponentWillReceiveProps() is invoked before a mounted component receives new props (when props get updated)
+    componentWillReceiveProps: function (newProps) {
+        var location = newProps.location.query.location;
+
+        if (location && location.length > 0) {
+            this.handleSearch(location);
+            window.location.hash = '#/';
+        }
     },
 
-   render: function () {
-       var {isLoading, temp, location} = this.state;
+    render: function () {
+        var {isLoading, temp, location, errorMessage} = this.state;
 
-       function renderMessage(){
-           if(isLoading){
-               return <h3 className="text-center">Fetching weather...</h3>;
-           } else if (temp && location){
-               return <WeatherMessage temp={temp} location={location}/>;
-           }
-       }
+        function renderMessage () {
+            if (isLoading) {
+                return <h3 className="text-center">Fetching weather...</h3>;
+            } else if (temp && location) {
+                return <WeatherMessage temp={temp} location={location}/>;
+            }
+        }
 
-       return (
-           <div>
-               <h1 className="text-center">Get Weather</h1>
-               <WeatherForm onSearch={this.handleSearch}/>
-               {renderMessage()}
-           </div>
-       );
-   }
+        function renderError () {
+            if (typeof errorMessage === 'string') {
+                return (
+                    <ErrorModal message={errorMessage}/>
+                )
+            }
+        }
+
+        return (
+            <div>
+                <h1 className="text-center page-title">Get Weather</h1>
+                <WeatherForm onSearch={this.handleSearch}/>
+                {renderMessage()}
+                {renderError()}
+            </div>
+        )
+    }
 });
 
 module.exports = Weather;
