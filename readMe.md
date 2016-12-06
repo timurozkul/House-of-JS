@@ -7,18 +7,24 @@ Code Challange - *2016 Oct*
 
 <h3>BucketList</h3>
 
-Learning project - *2016 Nov*
+Learning project,integrating React with Meteor - *2016 Nov*
 >Javascript, Meteor.js, MongoDB, React.js 
 
 <h3>ReactWeather</h3>
 
-Learning project - *2016 Nov*
+Learning project, fetches the weather for a particular city - *2016 Nov*
 >Javascript, React.js
 
 <h3>ReactTimer</h3>
 
-Learning project - *Currently working on*
+Learning project, a timer and countdown - *2016 Nov*
 >Javascript, React.js, Mocha.js
+
+<h3>ReactTodo</h3>
+
+Learning project, a todo application - *2016 Dec*
+>Javascript, React.js, Mocha.js
+
 
 <h3>Underconstruction</h3>
 
