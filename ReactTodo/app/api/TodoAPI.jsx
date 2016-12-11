@@ -1,26 +1,25 @@
 var $ = require('jquery');
 
 module.exports = {
-    setTodos: function(todos){
-        if($.isArray(todos)){
-            // Does not accept array or object
+    setTodos: function (todos) {
+        if ($.isArray(todos)) {
             localStorage.setItem('todos', JSON.stringify(todos));
             return todos;
         }
     },
-    getTodos: function(){
+    getTodos: function () {
         var stringTodos = localStorage.getItem('todos');
         var todos = [];
 
         try {
             todos = JSON.parse(stringTodos);
         } catch (e) {
-            // Do nothing
+
         }
 
-        return $.isArray(todos) ? todos: [];
+        return $.isArray(todos) ? todos : [];
     },
-    filterTodos: function(todos, showCompleted, searchText) {
+    filterTodos: function (todos, showCompleted, searchText) {
         var filteredTodos = todos;
 
         // Filter by showCompleted
@@ -31,6 +30,8 @@ module.exports = {
         // Filter by searchText
         filteredTodos = filteredTodos.filter((todo) => {
             var text = todo.text.toLowerCase();
+            console.log(todo)
+
             // If true it stay in the array if false it gets removed
             // Index returns -1 if it was NOT found
             return searchText.length === 0 || text.indexOf(searchText) > -1;
