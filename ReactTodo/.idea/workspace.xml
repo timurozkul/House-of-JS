@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49cf4305-9e52-4e85-aeeb-82c827441fa9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-    </list>
+    <list default="true" id="49cf4305-9e52-4e85-aeeb-82c827441fa9" name="Default" comment="" />
     <ignored path="ReactToDo.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -440,12 +438,12 @@
       <workItem from="1481228458663" duration="893000" />
       <workItem from="1481275084346" duration="6240000" />
       <workItem from="1481475404273" duration="1256000" />
-      <workItem from="1481476667424" duration="1141000" />
+      <workItem from="1481476667424" duration="1486000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52602000" />
+    <option name="totallyTimeSpent" value="52947000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="786" extended-state="0" />
