@@ -1,0 +1,219 @@
+body {
+    background-color: #F0F0F0;
+    font-family: Helvetica, Arial;
+}
+
+/* ----- Search Bar ---------------*/
+
+
+/*.test {*/
+    /*background-color: red;*/
+    /*position: absolute;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*padding: 25px;*/
+    /*height: 80px;*/
+    /*overflow: auto;*/
+/*}*/
+
+.userWrapper {
+    display: inline-block;
+    padding: 25px;
+    width: 355px;
+    background-color: #FFFFFF;
+    /*-webkit-clip-path: polygon(3% 0, 97% 0, 100% 3%, 100% 97%, 97% 100%, 3% 100%, 0 97%, 0 3%);*/
+    /*clip-path: polygon(3% 0, 96% 0, 100% 3%, 100% 97%, 97% 100%, 3% 100%, 0 97%, 0 3%);*/
+
+    -webkit-box-shadow: 5px 12px 25px  rgba(50, 50, 50, 0.5);
+    -moz-box-shadow:    5px 12px 25px  rgba(50, 50, 50, 0.5);
+    box-shadow:         5px 12px 25px rgba(50, 50, 50, 0.5);
+}
+
+.form input {
+    height: 29px;
+    font-size: 12px;
+    outline: none;
+}
+
+.searchBox {
+    border: 1px solid #bfbfbf;
+    border-radius: 3px;
+    padding-left: 8px;
+    width: 269px;
+    float: left;
+}
+
+.submit {
+    height: 33px !important;
+    margin-left: 6px;
+    padding-left: 11px;
+    padding-right: 11px;
+    float: right;
+
+    background-color: white;
+    border: 1px solid #bfbfbf;
+    border-radius: 3px;
+    font-weight: 600;
+
+    box-shadow: inset 0px -50px 43px -39px #E8E8E8;
+    -webkit-box-shadow: inset 0px -50px 43px -39px #E8E8E8;
+    -moz-box-shadow: inset 0px -50px 43px -39px #E8E8E8;
+    -o-box-shadow: inset 0px -50px 43px -39px #E8E8E8;
+}
+
+/* ----- User Profile ---------------*/
+
+.userProfile {
+    padding-top: 13px;
+    clear: both;
+}
+
+.imgWrapper {
+    display: inline-block;
+}
+
+.imgWrapper img{
+    width: 74px;
+    height: 74px;
+    border-radius: 3px;
+}
+
+.userInfo {
+    display: inline-block;
+    padding-left: 15px;
+    vertical-align: top;
+}
+
+.username {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    font-size: 13px;
+    font-style: oblique;
+    font-weight: 400;
+    color: #333333;
+}
+
+.fullName {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    font-size: 30px;
+    color: #2D3636;
+    font-weight: 600;
+}
+
+.bio {
+    margin-top: 1px;
+    margin-bottom: 0;
+
+    font-size: 13px;
+    font-weight: 400;
+    color: #333333;
+}
+
+/* ----- User Repositories ---------------*/
+
+.userRepos {
+    max-height: 277px;
+    padding-top: 23px;
+}
+
+.userRepos h3{
+    margin: 0;
+    font-size: 16px;
+}
+
+.userRepos hr{
+    margin-top: 10px;
+    margin-bottom: 0;
+    height: 2px;
+    border: none;
+    color: #777777;
+    background-color: #777777;
+}
+
+.userRepos ul {
+    margin: 0;
+    max-height:226px;
+    list-style-type: none;
+    padding-left: 0;
+    overflow-y: auto
+}
+
+.userRepos li {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 14px;
+    border-bottom: 1px solid darkgray;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.repoImages {
+    display: inline-block;
+    float: right;
+    padding-right: 10px;
+    vert-align: top;
+}
+
+.repoImages * { display: inline-block; }
+
+.repoImages img{
+    height: 13px;
+    margin-top: 4px;
+}
+
+.repoImages p {
+    padding: 4px;
+    font-size: 13px;
+    font-weight: 200;
+   margin-top: 0px;
+}
+
+/* ----- Error Message ---------------*/
+
+.messageWrapper {
+    clear: both;
+    padding-top: 13px;
+}
+
+.errorMessage {
+    margin-top: 10px;
+    padding: 17px;
+    background-color: #FEDCDD;
+    color: #A70000;
+    border: 1px solid #D4AFB0;
+    border-radius: 3px;
+}
+
+.errorMessage p {
+    margin: 0;
+    font-size: 14px;
+    font-family: Helvetica, helvetica, Arial;
+}
+
+
+
+/* ----- Miscellaneous ---------------*/
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.hide {
+    display: none;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+input[type=text]:focus {
+    box-shadow: 0 0 5px rgba(85, 164, 239, 1),  0 0 0px 1000px white inset;
+    border: 1px solid rgba(85, 164, 239, 1);
+}
