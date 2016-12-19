@@ -55,8 +55,9 @@ document.getElementById("form").addEventListener("submit", function (e) {
 
 
 function renderUser(data) {
-    document.getElementById('userWrapper').setAttribute("style", "border-radius: 14px");
     document.getElementById('userProfile').classList.remove('hide');
+    document.getElementById('userWrapper').setAttribute("style", "border-radius: 14px");
+
     document.getElementById('img').setAttribute('src', data.avatar_url);
     document.getElementById('username').innerHTML = '@' + data.login;
     document.getElementById('fullName').innerHTML = data.name;
@@ -94,6 +95,8 @@ function renderUserRepos(data) {
     }
 
     document.getElementById('submit').disabled = false;
+    document.getElementById('shadowElement').style.height = '366px';
+    document.getElementById('userWrapper').classList.remove('cornerShape');
 }
 
 // Reverts all changes made with JS
@@ -103,13 +106,12 @@ function revertChanges () {
     // Remove User Repos
     document.getElementById('userRepos').classList.add('hide');
     document.getElementById('userProfile').classList.add('hide');
+    document.getElementById('messageWrapper').classList.add('hide');
 
     var myNode = document.getElementById("userReposUl");
     while (myNode.firstChild) {
         myNode.removeChild(myNode.firstChild);
     }
-
-    document.getElementById('messageWrapper').classList.add('hide');
 
     // Remove User Profile info
     document.getElementById('img').removeAttribute('src');
@@ -118,12 +120,18 @@ function revertChanges () {
     document.getElementById('bio').innerHTML = '';
 
     document.getElementById('userWrapper').setAttribute("style", "border-radius: 0");
+    document.getElementById('shadowElement').style.height = '82px';
+    document.getElementById('userWrapper').classList.add('cornerShape');
 }
 
 function showErrorMessage() {
+    
     document.getElementById('userRepos').classList.add('hide');
     document.getElementById('userProfile').classList.add('hide');
     document.getElementById('messageWrapper').classList.remove('hide');
 
+    document.getElementById('shadowElement').style.height = '155px';
     document.getElementById('submit').disabled = false;
 }
+
+

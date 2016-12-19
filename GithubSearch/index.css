@@ -5,76 +5,59 @@ body {
 
 /* ----- Search Bar ---------------*/
 
-
-/*.test {*/
-    /*background-color: red;*/
-    /*position: absolute;*/
-    /*width: 100%;*/
-    /*height: 100%;*/
-    /*padding: 25px;*/
-    /*height: 80px;*/
-    /*overflow: auto;*/
-/*}*/
-
 .userWrapper {
     display: inline-block;
     padding: 25px;
     width: 355px;
     background-color: #FFFFFF;
-    /*-webkit-clip-path: polygon(3% 0, 97% 0, 100% 3%, 100% 97%, 97% 100%, 3% 100%, 0 97%, 0 3%);*/
-    /*clip-path: polygon(3% 0, 96% 0, 100% 3%, 100% 97%, 97% 100%, 3% 100%, 0 97%, 0 3%);*/
-
-    -webkit-box-shadow: 5px 12px 25px  rgba(50, 50, 50, 0.5);
-    -moz-box-shadow:    5px 12px 25px  rgba(50, 50, 50, 0.5);
-    box-shadow:         5px 12px 25px rgba(50, 50, 50, 0.5);
 }
 
 .form input {
     height: 29px;
+
     font-size: 12px;
     outline: none;
 }
 
 .searchBox {
-    border: 1px solid #bfbfbf;
-    border-radius: 3px;
+    float: left;
     padding-left: 8px;
     width: 269px;
-    float: left;
+
+    border: 1px solid #bfbfbf;
+    border-radius: 3px;
 }
 
 .submit {
     height: 33px !important;
-    margin-left: 6px;
-    padding-left: 11px;
-    padding-right: 11px;
     float: right;
+    margin-left: 6px;
+    padding: 2px 11px 4px 11px;
 
     background-color: white;
     border: 1px solid #bfbfbf;
     border-radius: 3px;
     font-weight: 600;
 
-    box-shadow: inset 0px -50px 43px -39px #E8E8E8;
-    -webkit-box-shadow: inset 0px -50px 43px -39px #E8E8E8;
-    -moz-box-shadow: inset 0px -50px 43px -39px #E8E8E8;
-    -o-box-shadow: inset 0px -50px 43px -39px #E8E8E8;
+    box-shadow: inset 0px -55px 43px -39px #E8E8E8;
+    -webkit-box-shadow: inset 0px -55px 43px -39px #E8E8E8;
+    -moz-box-shadow: inset 0px -55px 43px -39px #E8E8E8;
+    -o-box-shadow: inset 0px -55px 43px -39px #E8E8E8;
 }
 
 /* ----- User Profile ---------------*/
 
 .userProfile {
-    padding-top: 13px;
     clear: both;
+    padding-top: 13px;
 }
 
-.imgWrapper {
-    display: inline-block;
-}
+.imgWrapper {  display: inline-block;  }
 
-.imgWrapper img{
-    width: 74px;
+.imgWrapper > img{
     height: 74px;
+    width: 74px;
+
     border-radius: 3px;
 }
 
@@ -88,18 +71,18 @@ body {
     margin-top: 0;
     margin-bottom: 0;
 
+    color: #333333;
     font-size: 13px;
     font-style: oblique;
     font-weight: 400;
-    color: #333333;
 }
 
 .fullName {
     margin-top: 0;
     margin-bottom: 0;
 
-    font-size: 30px;
     color: #2D3636;
+    font-size: 30px;
     font-weight: 600;
 }
 
@@ -107,9 +90,9 @@ body {
     margin-top: 1px;
     margin-bottom: 0;
 
+    color: #333333;
     font-size: 13px;
     font-weight: 400;
-    color: #333333;
 }
 
 /* ----- User Repositories ---------------*/
@@ -119,56 +102,57 @@ body {
     padding-top: 23px;
 }
 
-.userRepos h3{
+.userRepos > h3{
     margin: 0;
     font-size: 16px;
 }
 
-.userRepos hr{
+.userRepos > hr{
+    height: 2px;
     margin-top: 10px;
     margin-bottom: 0;
-    height: 2px;
+
     border: none;
     color: #777777;
     background-color: #777777;
 }
 
-.userRepos ul {
+.userRepos > ul {
     margin: 0;
     max-height:226px;
-    list-style-type: none;
+    overflow-y: auto;
     padding-left: 0;
-    overflow-y: auto
+
+    list-style-type: none;
 }
 
 .userRepos li {
-    padding-top: 14px;
-    padding-bottom: 14px;
-    padding-left: 14px;
-    border-bottom: 1px solid darkgray;
+    padding: 14px 0 14px 14px;
+
+    border-bottom: 1px solid #C2C2C2;
     font-size: 16px;
     font-weight: 600;
 }
 
 .repoImages {
-    display: inline-block;
+    display: inline;
     float: right;
+    margin-top: -16px;
     padding-right: 10px;
     vert-align: top;
 }
 
-.repoImages * { display: inline-block; }
-
-.repoImages img{
+.repoImages > img{
+    display: inline-block;
     height: 13px;
-    margin-top: 4px;
 }
 
-.repoImages p {
+.repoImages > p {
+    display: inline-block;
     padding: 4px;
+
     font-size: 13px;
     font-weight: 200;
-   margin-top: 0px;
 }
 
 /* ----- Error Message ---------------*/
@@ -181,19 +165,19 @@ body {
 .errorMessage {
     margin-top: 10px;
     padding: 17px;
+
     background-color: #FEDCDD;
-    color: #A70000;
     border: 1px solid #D4AFB0;
     border-radius: 3px;
+    color: #A70000;
 }
 
-.errorMessage p {
+.errorMessage > p {
     margin: 0;
+
     font-size: 14px;
     font-family: Helvetica, helvetica, Arial;
 }
-
-
 
 /* ----- Miscellaneous ---------------*/
 
@@ -203,7 +187,6 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 
 .hide {
     display: none;
@@ -216,4 +199,19 @@ input:-webkit-autofill {
 input[type=text]:focus {
     box-shadow: 0 0 5px rgba(85, 164, 239, 1),  0 0 0px 1000px white inset;
     border: 1px solid rgba(85, 164, 239, 1);
+}
+
+.shadowElement {
+    width: 404px;
+    height: 82px;
+    border-radius: 10px;
+
+    -webkit-box-shadow: 5px 12px 25px  rgba(50, 50, 50, 0.5);
+    -moz-box-shadow:    5px 12px 25px  rgba(50, 50, 50, 0.5);
+    box-shadow:         5px 12px 25px rgba(50, 50, 50, 0.5);
+}
+
+.cornerShape {
+    -webkit-clip-path: polygon(3% 0, 97% 0, 100% 3%, 100% 97%, 97% 100%, 3% 100%, 0 97%, 0 3%);
+    clip-path: polygon(3% 0, 96% 0, 100% 3%, 100% 97%, 97% 100%, 3% 100%, 0 97%, 0 3%);
 }
