@@ -1,0 +1,35 @@
+.title-group {
+  border-bottom: 1px solid $border;
+  background-color: #F5F4FA;
+  padding: 15px 0 10px 20px;
+
+   h2 {
+    font-family: NeueHelveticaT;
+    font-size: 26px;
+    margin-top: 10px;
+  }
+}
+
+.user-info-group {
+  padding: 25px 15px 15px 15px;
+  border-bottom: 1px solid  $border;
+
+  .input-group-addon {
+    background-color: white;
+    border-radius: 0;
+    border: 2px solid $border;
+    color: #C7C7C7;
+  }
+}
+
+.name-group, .contact-group, .address-group {
+  padding-bottom: 20px;
+}
+
+.postcode {
+  width: 100%;
+}
+
+.location-group .address-group {
+  padding-top: 0;
+}

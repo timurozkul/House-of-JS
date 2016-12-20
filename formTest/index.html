@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Checkout form</title>
+    <link rel="stylesheet" type="text/css" href="styles/app.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+</head>
+<body>
+<div class='container-fluid gradient1'>
+    <form class="form gradient2 col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-xl-4 col-xl-offset-4">
+        <div class='row title-group'>
+            <h2>Checkout form</h2>
+        </div>
+
+        <div class='user-info-group'>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 name-group">
+                    <div class="input-group firstname-group">
+                        <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-user"></i></span>
+                        <input type="text" class="form-control" placeholder="First name" aria-describedby="basic-addon1" name="firstName">
+                    </div>
+                    <p class="errorMessage" id="firstNameError">Error: First name can only contain alphabetical characters.</p>
+                </div>
+                <div class="col-xs-12 col-sm-6 name-group">
+                    <div class="input-group lastname-group">
+                        <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-user"></i></span>
+                        <input type="text" class="form-control" placeholder="Last name" aria-describedby="basic-addon1" name="lastName">
+                    </div>
+                    <p class="errorMessage" id="lastNameError">Error: Last name can only contain alphabetical characters.</p>
+                </div>
+            </div>
+
+
+            <div class="row">
+            <div class="col-xs-12 col-sm-6 contact-group">
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-envelope"></i></span>
+                    <input type="text" class="form-control" placeholder="E-mail" aria-describedby="basic-addon1" name="email">
+                </div>
+                <p class="errorMessage" id="emailError">Error: E-mails must have an appropriate ending such as '@gmail.com'.</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 contact-group">
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-earphone"></i></span>
+                    <input type="text" class="form-control" placeholder="Phone" aria-describedby="basic-addon1" name="phoneNumber">
+                </div>
+                <p class="errorMessage" id="phoneError">Error: Phone numbers can only contain numbers.</p>
+            </div>
+            </div>
+
+        </div>
+
+        <div class='row location-group'>
+            <div class="col-xs-12 col-sm-4 address-group">
+                <div class="input-group">
+                    <select class="country" name="country">
+                        <option selected value="" disabled>Country</option>
+                        <option value="American Samoa">American Samoa</option>
+                        <option value="Bolivia">Bolivia</option>
+                        <option value="Cambodia">Cambodia</option>
+                        <option value="France">France</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Jordan">Jordan</option>
+                        <option value="Philippines">Philippines</option>
+                        <option value="United Kingdom">United Kingdom</option>
+                        <option value="Switzerland">Switzerland</option>
+                    </select>
+                </div>
+                <p class="errorMessage" id="countryError">Error: Please choose one from the following options.</p>
+            </div>
+            <div class="col-xs-12 col-sm-8">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-7">
+                        <div class="input-group">
+                             <input type="text" class="form-control city" placeholder="City" name="city">
+                        </div>
+                        <p class="errorMessage" id="cityError">Error: Please choose a valid city.</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-5" id="test2">
+                        <div class="input-group" id="test">
+                            <input type="text" class="form-control postcode" placeholder="Post code" name="postcode" id="postcode">
+                        </div>
+                        <p class="errorMessage" id="postcodeError">Error: Please choose a valid postcode.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-xs-12 address-group">
+                <div class="input-group">
+                    <input type="text" class="form-control address" placeholder="Address" name="address1">
+                </div>
+                <p class="errorMessage" id="addressError">Error: Please choose a valid address.</p>
+            </div>
+            <div class="col-xs-12 address-group">
+                <div class="input-group">
+                    <textarea class="form-control additionalInfo" placeholder="Additional info" id="additionalInfo" name="additionalInfo"></textarea>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 address-group">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Latitude" name="latitude">
+                </div>
+                <p class="errorMessage" id="latitudeError">Error: Please choose a valid latitude.</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 address-group">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Longitude" name="longitude">
+                </div>
+                <p class="errorMessage" id="longitudeError">Error: Please choose a valid longitude.</p>
+            </div>
+            <div class="col-xs-5 col-sm-3 button">
+                <button type="button" class="btn btn-default" id="submit">Submit</button>
+            </div>
+        </div>
+
+
+    </form>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+<script src="index.js"></script>
+</body>
+</html>
