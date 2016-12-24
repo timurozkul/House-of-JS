@@ -7,7 +7,7 @@ Code Challange - *2016 Oct*
 
 <h3>BucketList</h3>
 
-Learning project,integrating React with Meteor - *2016 Nov*
+Learning project, integrating React with Meteor - *2016 Nov*
 >Javascript, Meteor.js, MongoDB, React.js 
 
 <h3>GithubSearch</h3>
