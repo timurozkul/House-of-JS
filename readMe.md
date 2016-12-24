@@ -10,6 +10,11 @@ Code Challange - *2016 Oct*
 Learning project,integrating React with Meteor - *2016 Nov*
 >Javascript, Meteor.js, MongoDB, React.js 
 
+<h3>GithubSearch</h3>
+
+Learning project, fetches user info from Github using Github api - *2016 Dec*
+>Vanilla Javascript
+
 <h3>ReactWeather</h3>
 
 Learning project, fetches the weather for a particular city - *2016 Nov*
