@@ -15,6 +15,11 @@ Learning project, integrating React with Meteor - *2016 Nov*
 Learning project, fetches user info from Github using Github api - *2016 Dec*
 >Vanilla Javascript
 
+<h3>GeoForm</h3>
+
+Learning project, fetches geo location using Google's geolocation api - *2016 Nov*
+>Javascript, JQuery, Bootstrap
+
 <h3>ReactWeather</h3>
 
 Learning project, fetches the weather for a particular city - *2016 Nov*
@@ -28,7 +33,7 @@ Learning project, a timer and countdown - *2016 Nov*
 <h3>ReactTodo</h3>
 
 Learning project, a todo application - *2016 Dec*
->Javascript, React.js, Mocha.js
+>Javascript, React.js, Mocha.js, Foundation
 
 
 <h3>Underconstruction</h3>
