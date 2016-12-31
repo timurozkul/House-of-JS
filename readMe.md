@@ -7,8 +7,13 @@ Code Challange - *2016 Oct*
 
 <h3>BucketList</h3>
 
-Learning project,integrating React with Meteor - *2016 Nov*
+Learning project, integrating React with Meteor - *2016 Nov*
 >Javascript, Meteor.js, MongoDB, React.js 
+
+<h3>GithubSearch</h3>
+
+Learning project, fetches user info from Github using Github api - *2016 Dec*
+>Vanilla Javascript
 
 <h3>ReactWeather</h3>
 
@@ -28,7 +33,7 @@ Learning project, a todo application - *2016 Dec*
 
 <h3>Underconstruction</h3>
 
->Apprecation App, Nodeschool.io
+>Apprecation App, Nodeschool.io 
 
 
 
