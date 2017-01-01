@@ -34,7 +34,7 @@ Learning project, a timer and countdown - *2016 Nov*
 
 Learning project, a todo application - *2016 Dec*
 >Javascript, React.js, Mocha.js, Foundation
-
+ 
 
 <h3>Underconstruction</h3>
 
