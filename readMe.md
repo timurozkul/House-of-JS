@@ -22,7 +22,7 @@ Learning project, fetches geo location using Google's geolocation api - *2016 No
 
 <h3>ReactWeather</h3>
 
-Learning project, fetches the weather for a particular city - *2016 Nov*
+Learning project, fetches the weather for a particular city using openWeather api - *2016 Nov*
 >Javascript, React.js
 
 <h3>ReactTimer</h3>
