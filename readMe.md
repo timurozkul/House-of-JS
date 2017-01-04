@@ -41,5 +41,4 @@ Learning project, a todo application - *2016 Dec*
 >Apprecation App, Nodeschool.io 
 
 
-
                  
