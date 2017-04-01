@@ -3,8 +3,6 @@ import React, {Component} from 'react';
 
 //Tracker react only done when pulling in data
 export default class FormBucketList extends Component {
-   
-
     addBucketList(event){
         event.preventDefault();
         var text = this.refs.bucketlist.value.trim();

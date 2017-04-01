@@ -4260,12 +4260,6 @@
         <item url="file://$USER_HOME$/.meteor/packages/http/1.1.8/npm/node_modules/process-nextick-args/test.js" />
         <item url="file://$USER_HOME$/.meteor/packages/http/1.1.8/npm/node_modules/generate-object-property/index.js" />
         <item url="file://$USER_HOME$/.meteor/packages/http/1.1.8/npm/node_modules/generate-object-property/test.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/iron_router/1.0.13/npm/node_modules/body-parser/index.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/iron_router/1.0.13/npm/node_modules/body-parser/lib/read.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/iron_router/1.0.13/npm/node_modules/body-parser/lib/types/text.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/iron_router/1.0.13/npm/node_modules/body-parser/lib/types/raw.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/iron_router/1.0.13/npm/node_modules/body-parser/lib/types/urlencoded.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/iron_router/1.0.13/npm/node_modules/body-parser/lib/types/json.js" />
         <item url="file://$USER_HOME$/.meteor/packages/babel-compiler/6.9.1_1/npm/node_modules/ms/index.js" />
         <item url="file://$USER_HOME$/.meteor/packages/babel-compiler/6.9.1_1/npm/node_modules/vlq/src/vlq.js" />
         <item url="file://$USER_HOME$/.meteor/packages/babel-compiler/6.9.1_1/npm/node_modules/vlq/dist/vlq.js" />
@@ -9185,12 +9179,6 @@
       <root url="file://$USER_HOME$/.meteor/packages/http/1.1.8/npm/node_modules/process-nextick-args/test.js" />
       <root url="file://$USER_HOME$/.meteor/packages/http/1.1.8/npm/node_modules/generate-object-property/index.js" />
       <root url="file://$USER_HOME$/.meteor/packages/http/1.1.8/npm/node_modules/generate-object-property/test.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/iron_router/1.0.13/npm/node_modules/body-parser/index.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/iron_router/1.0.13/npm/node_modules/body-parser/lib/read.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/iron_router/1.0.13/npm/node_modules/body-parser/lib/types/text.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/iron_router/1.0.13/npm/node_modules/body-parser/lib/types/raw.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/iron_router/1.0.13/npm/node_modules/body-parser/lib/types/urlencoded.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/iron_router/1.0.13/npm/node_modules/body-parser/lib/types/json.js" />
       <root url="file://$USER_HOME$/.meteor/packages/babel-compiler/6.9.1_1/npm/node_modules/ms/index.js" />
       <root url="file://$USER_HOME$/.meteor/packages/babel-compiler/6.9.1_1/npm/node_modules/vlq/src/vlq.js" />
       <root url="file://$USER_HOME$/.meteor/packages/babel-compiler/6.9.1_1/npm/node_modules/vlq/dist/vlq.js" />
