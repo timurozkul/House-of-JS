@@ -22,7 +22,7 @@ Learning project, fetches geo location using Google's geolocation api - *2016 No
 
 <h3>NotesNode</h3>
 
-Learning project, creates notes through terminal - *2016 Nov*
+Learning project, creates notes through terminal - *2017 April*
 >Javascript, Node
 
 <h3>ReactWeather</h3>
