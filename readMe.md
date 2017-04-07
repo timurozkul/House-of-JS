@@ -20,6 +20,11 @@ Learning project, fetches user info from Github using Github api - *2016 Dec*
 Learning project, fetches geo location using Google's geolocation api - *2016 Nov*
 >Javascript, JQuery, Bootstrap
 
+<h3>NotesNode</h3>
+
+Learning project, creates notes through terminal - *2017 April*
+>Javascript, Node
+
 <h3>ReactWeather</h3>
 
 Learning project, fetches the weather for a particular city using openWeather api - *2016 Nov*
@@ -35,8 +40,3 @@ Learning project, a timer and countdown - *2016 Nov*
 Learning project, a todo application - *2016 Dec*
 >Javascript, React.js, Mocha.js, Foundation
  
-
-<h3>Underconstruction</h3>
-
->Apprecation App, Nodeschool.io
-       
