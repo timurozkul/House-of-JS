@@ -12,12 +12,12 @@ Learning project, integrating React with Meteor - *2016 Nov*
 
 <h3>GithubSearch</h3>
 
-Learning project, fetches user info from Github using Github api - *2016 Dec*
+Code Challange, fetches user info from Github using Github api - *2016 Dec*
 >Vanilla Javascript
 
 <h3>GeoForm</h3>
 
-Learning project, fetches geo location using Google's geolocation api - *2016 Nov*
+Code Challange, fetches geo location using Google's geolocation api - *2016 Nov*
 >Javascript, JQuery, Bootstrap
 
 <h3>NotesNode</h3>
