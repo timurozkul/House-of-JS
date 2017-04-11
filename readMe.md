@@ -25,6 +25,11 @@ Code Challange, fetches geo location using Google's geolocation api - *2016 Nov*
 Learning project, creates notes through terminal - *2017 April*
 >Javascript, Node
 
+<h3>WeatherNode</h3>
+
+Learning project, retrieves the weather & address - *2017 April*
+>Javascript, Node
+
 <h3>ReactWeather</h3>
 
 Learning project, fetches the weather for a particular city using openWeather api - *2016 Nov*
