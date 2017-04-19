@@ -34,7 +34,7 @@ Learning project, retrieves the weather & address - *2017 April*
 
 Learning project, fetches the weather for a particular city using openWeather api - *2016 Nov*
 >Javascript, React
-
+ 
 <h3>ReactTimer</h3>
 
 Learning project, a timer and countdown - *2016 Nov*
