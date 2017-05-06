@@ -3,12 +3,12 @@
 <h3>Toucantech</h3>
  
 Code Challange - *2016 Oct*
->Javascript, Meteor, MongoDB, JQuery
+>Meteor, MongoDB, JQuery
  
 <h3>BucketList</h3>
 
 Learning project, integrating React with Meteor - *2016 Nov*
->Javascript, Meteor, MongoDB, React 
+>Meteor, MongoDB, React 
 
 <h3>GithubSearch</h3>
 
@@ -18,30 +18,35 @@ Code Challange, fetches user info from Github using Github api - *2016 Dec*
 <h3>GeoForm</h3>
 
 Code Challange, fetches geo location using Google's geolocation api - *2016 Nov*
->Javascript, JQuery, Bootstrap
+>JQuery, Bootstrap
 
 <h3>NotesNode</h3>
 
 Learning project, creates notes through terminal - *2017 April*
->Javascript, Node
+>Node
 
 <h3>WeatherNode</h3>
 
 Learning project, retrieves the weather & address - *2017 April*
->Javascript, Node
+>Node
+
+<h3>TodoApiNode</h3>
+
+Creating my own api, a todo application - *2016 Dec*
+>Node, Mocha
 
 <h3>ReactWeather</h3>
 
 Learning project, fetches the weather for a particular city using openWeather api - *2016 Nov*
->Javascript, React
+>React
  
 <h3>ReactTimer</h3>
 
 Learning project, a timer and countdown - *2016 Nov*
->Javascript, React, Mocha
+>React, Mocha
 
 <h3>ReactTodo</h3>
 
 Learning project, a todo application - *2016 Dec*
->Javascript, React, Mocha, Foundation
+>React, Mocha, Foundation
  
