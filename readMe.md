@@ -22,7 +22,7 @@ Code Challange, fetches geo location using Google's geolocation api - *2016 Nov*
 
 <h3>NotesNode</h3>
 
-Learning project, creates notes through terminal - *2017 April*
+Learning project, creates notes through terminal - *2017 March*
 >Node
 
 <h3>WeatherNode</h3>
