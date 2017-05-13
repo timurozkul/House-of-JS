@@ -25,7 +25,7 @@ io.on('connection', (socket) => {
   	// socket.emit: commits to a single connection
   	// io.emit: commits to all connection
   	io.emit('newMessage', generateMessage(message.from, message.text));
-  	callback('this is from the server');
+  	callback();
   	// Broadcasting is when a message is sent to all except the sender
   	// socket.broadcast.emit('newMessage', {
   	// 	from: message.from,
