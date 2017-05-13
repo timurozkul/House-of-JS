@@ -40,6 +40,11 @@ Creating my own api, a todo application
 The all necessary chat app with Node 
 >Node, JQuery, Mocha
 
+<h3>FBMessengerBot</h3>
+
+Facebook Chatbot that uses wit.ai, a natural langauge AI
+>Node
+
 <h3>ReactWeather</h3>
 
 Learning project, fetches the weather for a particular city using openWeather api - *2016 Nov*
