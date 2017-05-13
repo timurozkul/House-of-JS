@@ -19,12 +19,8 @@ Code Challange, fetches geo location using Google's geolocation api - *2016 Nov*
 
 Code Challange, fetches user info from Github using Github api - *2016 Dec*
 >Vanilla Javascript
-<h3>Toucantech</h3>
  
-Code Challange - *2016 Oct*
->Meteor, MongoDB, JQuery
- 
-<h3>NodeChatApp</h3>
+<h3>NodeChat</h3>
 
 The all necessary chat app with Node 
 >Node, JQuery, Mocha
@@ -64,3 +60,7 @@ Learning project, a todo application - *2016 Dec*
 Learning project, fetches the weather for a particular city using openWeather api - *2016 Nov*
 >React
  
+<h3>Toucantech</h3>
+ 
+Code Challange - *2016 Oct*
+>Meteor, MongoDB, JQuery
