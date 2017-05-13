@@ -32,8 +32,13 @@ Learning project, retrieves the weather & address - *2017 April*
 
 <h3>TodoApiNode</h3>
 
-Creating my own api, a todo application - *2016 Dec*
+Creating my own api, a todo application 
 >Node, Mocha
+
+<h3>NodeChatApp</h3>
+
+The all necessary chat app with Node 
+>Node, JQuery, Mocha
 
 <h3>ReactWeather</h3>
 
