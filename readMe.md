@@ -62,5 +62,5 @@ Learning project, fetches the weather for a particular city using openWeather ap
  
 <h3>Toucantech</h3>
  
-Code Challange - *2016 Oct*
+Code Challange - *2016 Oct* 
 >Meteor, MongoDB, JQuery
