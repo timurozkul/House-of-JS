@@ -27,7 +27,7 @@ title: titleOptions
 })
 .help()
 .argv;
-var command = argv._[0];
+const command = argv._[0];
 
 console.log('Yargs:', argv);
 
