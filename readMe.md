@@ -53,7 +53,7 @@ Learning project, a timer and countdown - *2016 Nov*
 <h3>ReactTodo</h3>
 
 Learning project, a todo application - *2016 Dec*
->React, Mocha, Foundation
+>React, Mocha, Foundation 
  
 <h3>ReactWeather</h3>
 
