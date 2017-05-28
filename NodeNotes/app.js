@@ -1,9 +1,7 @@
-const fs = require('fs');
-const os = require('os');
 const _ = require('lodash');
 const yargs = require('yargs');
-
 const notes = require('./notes.js');
+
 const titleOptions = {
 	describe: 'Title of note',
 	demand: true,
@@ -27,6 +25,7 @@ title: titleOptions
 })
 .help()
 .argv;
+
 const command = argv._[0];
 
 console.log('Yargs:', argv);

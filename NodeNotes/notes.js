@@ -17,9 +17,6 @@ const saveNotes = (notes) => {
 const addNote = (title, body) => {
 	const notes = fetchNotes();
 	const note = { title, body };
-
-	
-	
 	const duplicateNotes = notes.filter( note => note.title === title );
 
 	if(duplicateNotes.length === 0){
@@ -30,7 +27,7 @@ const addNote = (title, body) => {
 };
 
 const getAll = () => {
-return fetchNotes();
+	return fetchNotes();
 };
 
 const getNote = (title) => {
