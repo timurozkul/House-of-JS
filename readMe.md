@@ -6,7 +6,7 @@ Looking to build my first React Native app
 >ReactNative
 
 <h3>FBMessengerBot</h3>
-
+ 
 Facebook Chatbot that uses wit.ai, a natural langauge AI
 >Node
 
@@ -27,7 +27,7 @@ The all necessary chat app with Node
 
 <h3>NodeNotes</h3>
 
-Learning project, creates notes through terminal - *2017 March*
+Learning project, creates notes through terminal - 
 >Node
 
 <h3>NodeTodoApi</h3>
@@ -37,7 +37,7 @@ Creating my own api, a todo application
 
 <h3>NodeWeather</h3>
 
-Learning project, retrieves the weather & address - *2017 April*
+Learning project, retrieves the weather & address - 
 >Node
 
 <h3>ReactBucketList</h3>
@@ -53,7 +53,7 @@ Learning project, a timer and countdown - *2016 Nov*
 <h3>ReactTodo</h3>
 
 Learning project, a todo application - *2016 Dec*
->React, Mocha, Foundation
+>React, Mocha, Foundation 
  
 <h3>ReactWeather</h3>
 
