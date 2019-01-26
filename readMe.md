@@ -1,10 +1,5 @@
 <h3>Repo Overview</h3>
 
-<h3>AppreciationApp</h3>
-
-Looking to build my first React Native app
->ReactNative
-
 <h3>FBMessengerBot</h3>
  
 Facebook Chatbot that uses wit.ai, a natural langauge AI
