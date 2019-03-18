@@ -2,7 +2,7 @@
 
 <h3>FBMessengerBot</h3>
  
-Facebook Chatbot that uses wit.ai, a natural langauge AI
+Facebook Chatbot that uses wit.ai (natural langauge AI) along with the Facebook messanger api - *2017 Jun*
 >Node
 
 <h3>GeoForm</h3>
