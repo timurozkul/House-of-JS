@@ -17,22 +17,22 @@ Code Challange, fetches user info from Github using Github api - *2016 Dec*
  
 <h3>NodeChat</h3>
 
-The all necessary chat app with Node 
+The all necessary chat app with Node - *2016 Oct*
 >Node, JQuery, Mocha
 
 <h3>NodeNotes</h3>
 
-Learning project, creates notes through terminal - 2016 Oct*
+Learning project, creates notes through terminal - *2016 Oct*
 >Node
 
 <h3>NodeTodoApi</h3>
 
-Creating my own api, a todo application - 2016 Oct*
+Creating my own api, a todo application - *2016 Oct*
 >Node, Mocha
 
 <h3>NodeWeather</h3>
 
-Learning project, retrieves the weather & address - 2016 Oct*
+Learning project, retrieves the weather & address - *2016 Oct*
 >Node
 
 <h3>ReactBucketList</h3>
