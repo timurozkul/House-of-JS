@@ -13,7 +13,7 @@
     "jade": "~1.11.0",
     "moment": "^2.18.1",
     "mongodb": "^2.2.26",
-    "mongoose": "^4.9.5",
+    "mongoose": "^5.10.9",
     "morgan": "~1.8.1",
     "node-wit": "^4.2.0",
     "request": "^2.81.0",
