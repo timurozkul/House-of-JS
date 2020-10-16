@@ -22,17 +22,17 @@ The all necessary chat app with Node
 
 <h3>NodeNotes</h3>
 
-Learning project, creates notes through terminal - 
+Learning project, creates notes through terminal - 2016 Oct*
 >Node
 
 <h3>NodeTodoApi</h3>
 
-Creating my own api, a todo application 
+Creating my own api, a todo application - 2016 Oct*
 >Node, Mocha
 
 <h3>NodeWeather</h3>
 
-Learning project, retrieves the weather & address - 
+Learning project, retrieves the weather & address - 2016 Oct*
 >Node
 
 <h3>ReactBucketList</h3>
